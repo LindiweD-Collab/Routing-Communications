@@ -7,6 +7,6 @@ def route_message(message_type, message):
     else:  
         print("Unknown message type!")  
 
-# Example usage  
+ 
 route_message('email', 'Welcome to our service!')  
 route_message('sms', 'Your order has been shipped!')
